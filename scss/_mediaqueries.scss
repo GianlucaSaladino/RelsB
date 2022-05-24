@@ -1,0 +1,26 @@
+@media screen and (min-width: 1260px) {
+  .hero-discografia {
+    height: 100vh;
+  }
+  /*Aplicamos fondo para el index en laptop*/
+  .hero {
+    background-image: linear-gradient(
+        rgba(16, 16, 16, 0.8),
+        rgba(16, 16, 16, 0.8)
+      ),
+      url(../img/relsbfondogrande.jpg);
+    .hero_container {
+      padding-left: 60px;
+    }
+  }
+
+  .hero-concert {
+    height: 100vh;
+    .hero-container {
+      width: 40%;
+      img {
+        width: 500px;
+      }
+    }
+  }
+}
